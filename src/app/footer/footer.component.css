@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer img {
+    height: 30px;
+}
+
+footer a {
+    transition: 200ms linear;
+}
+
+footer a:hover {
+    position: relative;
+    transform: translateY(-5px);
+}

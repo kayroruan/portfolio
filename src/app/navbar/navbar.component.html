@@ -1,0 +1,12 @@
+<div class="menu">
+    <button (click)="menuShow()"><img src="./assets/icons/menu-icon.png" alt=""></button>
+</div>
+<div class="navbar">
+    <button (click)="outMenu()"><img src="./assets/icons/exit-icon.png" alt=""></button>
+    <div>
+        <a [routerLink]="['./about']" (click)="outMenu()"><h2>Sobre mim</h2></a>
+        <a [routerLink]="['./projects']" (click)="outMenu()"><h2>Projetos</h2></a>
+        <a href=""><h2>Techs</h2></a>
+    </div>
+</div>
+<div class="overlay" (click)="outMenu()"></div>

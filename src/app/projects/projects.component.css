@@ -1,0 +1,31 @@
+nav {
+    padding:80px 0px 80px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 160px;
+}
+
+h1 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.projeto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: inset;
+}
+
+img {
+    height: 200px;
+}
+
+a {
+    color: #746d6d;
+    transition: 200ms linear;
+}
+
+a:hover {
+    color: rgb(201, 197, 197);
+}

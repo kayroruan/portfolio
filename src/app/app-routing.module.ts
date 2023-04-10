@@ -6,10 +6,10 @@ import { TechsComponent } from './techs/techs.component';
 
 const routes: Routes = [
   {
-    path:'about', component: AboutComponent
+    path:'aboutme', component: AboutComponent
   },
   {
-    path: '', redirectTo: 'about', pathMatch: 'full'
+    path: '', redirectTo: 'aboutme', pathMatch: 'full'
   },
   {
     path: 'projects', component: ProjectsComponent

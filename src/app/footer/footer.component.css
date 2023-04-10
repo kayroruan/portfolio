@@ -1,19 +1,55 @@
 footer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-footer img {
+.footer img {
     height: 30px;
 }
 
-footer a {
+.footer a {
     transition: 200ms linear;
 }
 
-footer a:hover {
+.footer a:hover {
     position: relative;
     transform: translateY(-5px);
+}
+
+/* Text animation */
+.conect {
+    border-right: 2px solid rgb(255, 255, 255, 0.5);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor 700ms infinite normal, typing 2s steps(30) normal ;
+}
+
+@keyframes blinkCursor{
+    from {
+        border-right-color: rgb(255, 255, 255, 0.5)
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 12em;
+    }
 }

@@ -18,7 +18,7 @@ var PROJECTS: Project[] = [
     id: 1,
     title: 'Lótus Drink Bar',
     description: 'Descrição do Projeto',
-    imageUrl: './assets/images/perfil.JPEG',
+    imageUrl: './assets/images/lotus.jpeg',
     link: 'https://www.lotusdrinksbar.com',
     type: 'site'
   },
@@ -26,7 +26,7 @@ var PROJECTS: Project[] = [
     id: 1,
     title: 'Course Manager',
     description: 'Descrição do Projeto',
-    imageUrl: './assets/images/perfil.JPEG',
+    imageUrl: './assets/images/course-manager.jpeg',
     link: 'https://github.com/kayroruan/pagina-angular-course-manager',
     type: 'repositório'
   },
@@ -34,7 +34,7 @@ var PROJECTS: Project[] = [
     id: 1,
     title: 'Tela League of Legends',
     description: 'Descrição do Projeto',
-    imageUrl: './assets/images/perfil.JPEG',
+    imageUrl: './assets/images/lol.jpeg',
     link: 'https://github.com/kayroruan/tela-de-login-lol',
     type: 'repositório'
   }

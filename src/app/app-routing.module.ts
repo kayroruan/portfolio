@@ -1,22 +1,26 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TechsComponent } from './techs/techs.component';
+import { Erro404Component } from './core/erro404/erro404.component';
 
 const routes: Routes = [
   {
-    path:'aboutme', component: AboutComponent
+    path:'home', component: HomeComponent
   },
   {
-    path: '', redirectTo: 'aboutme', pathMatch: 'full'
+    path: '', redirectTo: 'home', pathMatch: 'full'
   },
   {
     path: 'projects', component: ProjectsComponent
   },
   {
     path: 'techs', component: TechsComponent
-  }
+  },
+  {
+    path: '**', component: Erro404Component  
+  },
 ];
 
 @NgModule({

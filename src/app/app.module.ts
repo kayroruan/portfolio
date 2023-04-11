@@ -7,20 +7,22 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about/about.component';
-import { NavBarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './core/navbar/navbar.component';
+import { FooterComponent } from './core/footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TechsComponent } from './techs/techs.component';
+import { Erro404Component } from './core/erro404/erro404.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
+    HomeComponent,
     NavBarComponent,
     FooterComponent,
     ProjectsComponent,
     TechsComponent,
+    Erro404Component,
   ],
   imports: [
     BrowserModule,

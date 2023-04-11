@@ -4,6 +4,7 @@
 <div class="navbar">
     <button (click)="outMenu()"><img src="./assets/icons/exit-icon.png" alt=""></button>
     <div>
+        <a [routerLink]="['./home']" (click)="outMenu()"><h2>Home</h2></a>
         <a [routerLink]="['./aboutme']" (click)="outMenu()"><h2>Sobre mim</h2></a>
         <a [routerLink]="['./projects']" (click)="outMenu()"><h2>Projetos</h2></a>
         <a [routerLink]="['./techs']" (click)="outMenu()"><h2>Techs</h2></a>

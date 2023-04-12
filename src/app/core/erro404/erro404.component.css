@@ -1,3 +1,7 @@
 nav {
     padding: 40px;
 }
+
+footer {
+    display: none;
+}

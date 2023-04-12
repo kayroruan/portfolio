@@ -3,7 +3,7 @@ nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 160px;
+    gap: 80px;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 .projeto {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 16px;
     box-shadow: inset;
 }
 

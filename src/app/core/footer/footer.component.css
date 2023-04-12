@@ -3,6 +3,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 16px 0px 16px 0px;
+    height: 15vh;
 }
 
 .footer {

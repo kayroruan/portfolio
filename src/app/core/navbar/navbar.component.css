@@ -1,6 +1,7 @@
 .menu {
   width: 100%;
-  padding: 20px;
+  height: 15vh;
+  padding: 20px 0px 0px 20px;
 }
 
 button {

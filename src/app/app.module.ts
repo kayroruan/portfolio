@@ -14,6 +14,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { TechsComponent } from './techs/techs.component';
 import { Erro404Component } from './core/erro404/erro404.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { BarraComponent } from './barra/barra.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
     TechsComponent,
     Erro404Component,
     AboutmeComponent,
+    BarraComponent,
   ],
   imports: [
     BrowserModule,

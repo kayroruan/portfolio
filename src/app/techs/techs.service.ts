@@ -25,13 +25,13 @@ var TECHS: Tech[] = [
   },
   {
     imageUrl: './assets/images/html.svg',
-    name: 'CSS',
-    progress: 90
+    name: 'HTML',
+    progress: 100
   },
   {
     imageUrl: './assets/images/css.svg',
-    name: 'HTML',
-    progress: 100
+    name: 'CSS',
+    progress: 90
   },
   {
     imageUrl: './assets/images/angular.svg',

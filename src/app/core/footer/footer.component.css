@@ -31,7 +31,6 @@ footer {
 .conect {
     border-right: 2px solid rgb(255, 255, 255, 0.5);
     white-space: nowrap;
-    overflow: hidden;
 }
 
 .typing-animation {

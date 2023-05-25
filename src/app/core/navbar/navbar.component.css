@@ -13,7 +13,7 @@ img {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: -60%;
   height: 100vh;

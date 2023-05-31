@@ -14,38 +14,30 @@ export class TechsService {
 var TECHS: Tech[] = [
   {
     imageUrl: './assets/images/javascript.svg',
-    name: 'JavaScript',
-    progress: 80
+    name: 'JAVASCRIPT',
   },
   {
     imageUrl: './assets/images/typescript.svg',
-    name: 'TypeScript',
-    progress: 60
-
+    name: 'TYPESCRIPT',
   },
   {
     imageUrl: './assets/images/html.svg',
     name: 'HTML',
-    progress: 100
   },
   {
     imageUrl: './assets/images/css.svg',
     name: 'CSS',
-    progress: 90
   },
   {
     imageUrl: './assets/images/angular.svg',
-    name: 'Angular',
-    progress: 60
+    name: 'ANGULAR',
   },
   {
     imageUrl: './assets/images/react.svg',
-    name: 'ReactJs',
-    progress: 30
+    name: 'REACTJS',
   },
   {
     imageUrl: './assets/images/mysql.svg',
-    name: 'MySQL',
-    progress: 30
+    name: 'MYSQL',
   }
 ]

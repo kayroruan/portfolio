@@ -1,8 +1,8 @@
 <h1>Techs</h1>
 
 <nav>
-    <div class="tech_progress" *ngFor="let tech of _techs">
+    <div *ngFor="let tech of _techs">
         <img [src]="tech.imageUrl" alt="">
-        <app-barra [progress]="tech.progress"></app-barra>
+        <p>{{tech.name}}</p>
     </div>
 </nav>

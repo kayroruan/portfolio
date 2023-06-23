@@ -4,5 +4,6 @@ export class Project {
     description: string;
     imageUrl: string;
     link: string;
-    type: string
+    app?: string;
+    repo?: string
 }

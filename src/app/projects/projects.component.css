@@ -37,3 +37,8 @@ a {
 a:hover {
     color: rgb(201, 197, 197);
 }
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}

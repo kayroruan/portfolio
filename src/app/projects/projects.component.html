@@ -6,7 +6,10 @@
         <div>
             <h2>{{ project.title }}</h2>
             <p>{{ project.description }}</p>
-            <a [href]="project.link" target="_blank">Link do {{ project.type }}</a>
+            <div class="links">
+                <a [href]="project.link" target="_blank">{{ project.app }}</a>
+                <a [href]="project.repo" *ngIf="project.repo" target="_blank">Repositório</a>
+            </div>
         </div>
     </div>
 </nav>

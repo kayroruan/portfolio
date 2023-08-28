@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
@@ -14,7 +13,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { TechsComponent } from './techs/techs.component';
 import { Erro404Component } from './core/erro404/erro404.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
-import { BarraComponent } from './barra/barra.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +25,6 @@ import { BarraComponent } from './barra/barra.component';
     TechsComponent,
     Erro404Component,
     AboutmeComponent,
-    BarraComponent,
   ],
   imports: [
     BrowserModule,

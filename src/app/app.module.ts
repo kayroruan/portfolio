@@ -12,7 +12,6 @@ import { FooterComponent } from './core/footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TechsComponent } from './techs/techs.component';
 import { Erro404Component } from './core/erro404/erro404.component';
-import { AboutmeComponent } from './aboutme/aboutme.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -24,7 +23,6 @@ import { AppRoutingModule } from './app-routing.module';
     ProjectsComponent,
     TechsComponent,
     Erro404Component,
-    AboutmeComponent,
   ],
   imports: [
     BrowserModule,

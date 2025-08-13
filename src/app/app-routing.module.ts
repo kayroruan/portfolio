@@ -5,7 +5,6 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TechsComponent } from './techs/techs.component';
 import { Erro404Component } from './core/erro404/erro404.component';
-import { AboutmeComponent } from './aboutme/aboutme.component';
 
 const routes: Routes = [
   {
@@ -13,9 +12,6 @@ const routes: Routes = [
   },
   {
     path: '', redirectTo: 'home', pathMatch: 'full'
-  },
-  {
-    path: 'aboutme', component: AboutmeComponent
   },
   {
     path: 'projects', component: ProjectsComponent

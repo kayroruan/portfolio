@@ -1,27 +1,38 @@
-# SpaProject
+# Kayro — Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+Portfolio pessoal desenvolvido com Angular e TypeScript.
 
-## Development server
+## 🚀 Tecnologias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular
+- TypeScript
+- RxJS
+- Angular Material
+- Bootstrap
+- CSS
 
-## Code scaffolding
+## ✨ Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Página inicial
+- Projetos
+- Tecnologias
+- Navegação SPA
+- Página 404
+- Design responsivo
 
-## Build
+## 🏗️ Arquitetura
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Descrição resumida da estrutura...
 
-## Running unit tests
+## ▶️ Executando localmente
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install
+ng serve
 
-## Running end-to-end tests
+## 🌐 Deploy
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+https://kayro.vercel.app
 
-## Further help
+## 👨‍💻 Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Kayro Ruan
